@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 50px;
+    background-color:tomato;
+    margin-top: 0px;
+    color: #2b2929;
+}
+#input{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    padding: 2px 20px;
+    color: #000000;
+    font-size: 18px;
+    height: 30px;
+    background-color: rgb(0, 192, 0);
+    border: none;
+    font-weight: 500;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+input::placeholder{
+    color: #000;
+    font-weight: 500;
+}
+#btn{
+    width: 100px;
+    background-color: blueviolet;
+    border: none;
+    border: 2px solid black;
+    height: 39px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#Thanks{
+    font-size: 65px;
+    margin-top: 150px;
+    animation: coluring 2s infinite;
+    background-color: lightslategrey;
+    display: none;
+}
+@keyframes coluring{
+    10%{
+        color: tomato;
+    }
+    20%{
+        color: lightskyblue;
+    }
+    30%{
+        color: lightslategrey;
+    }
+    40%{
+        color: blueviolet;
+    }
+    50%{
+        color: yellow;
+    }
+    60%{
+        color: rgb(0, 255, 0);
+    }
+    70%{
+        color: crimson;
+    }
+    80%{
+        color: fuchsia;
+    }
+    90%{
+
+        color: lightslategray;
+    }
+    100%{
+        color: rgb(230, 112, 131);
+    }
+}
+#error{
+    background-color:crimson;
+    color: #fff;
+    display: none;
+}
+#btn:hover{
+    background-color: rgb(83, 0, 160);
+    cursor: pointer;
+}
